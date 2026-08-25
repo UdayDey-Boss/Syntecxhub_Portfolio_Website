@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nusrat Jahan — Front-end Developer</title>
+<meta name="description" content="Portfolio of Nusrat Jahan, a front-end developer building fast, accessible interfaces with HTML, CSS and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="topbar">
+  <a class="mark" href="#top" aria-label="Back to top">
+    <span class="mark__dot" aria-hidden="true"></span>
+    <span class="mark__text">N.J.</span>
+  </a>
+  <nav class="topnav" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <p class="eyebrow">Front-end developer · Dhaka, Bangladesh</p>
+
+    <!-- The data-name attribute draws the offset "second ink pass". Keep both texts identical. -->
+    <h1 class="hero__name" data-name="NUSRAT&#10;JAHAN">NUSRAT<br>JAHAN</h1>
+
+    <p class="hero__line">
+      I build interfaces that load fast, read clearly and work on every screen —
+      starting from semantic HTML and CSS that I can explain line by line.
+    </p>
+
+    <ul class="hero__meta">
+      <li><span>Available</span> Internship / junior roles</li>
+      <li><span>Stack</span> HTML · CSS · JavaScript</li>
+      <li><span>Currently</span> Front-end intern at Syntecxhub</li>
+    </ul>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <p class="section__label">01 — About</p>
+    <div class="about">
+      <div class="about__body">
+        <p class="lede">I started with a single HTML file and a lot of curiosity about why things moved when I hovered them.</p>
+        <p>Two years later that curiosity turned into a habit: pick something on the web I like, take it apart, rebuild it from scratch, then figure out what I would have done differently. Most of what I know about layout, accessibility and CSS came out of that loop.</p>
+        <p>Right now I care most about the unglamorous parts — keyboard focus that stays visible, text that survives a 320&nbsp;px screen, and CSS that the next person can read without a map. If a page needs a framework to show three sections, I would rather not use one.</p>
+      </div>
+      <aside class="specs" aria-label="Quick facts">
+        <dl>
+          <div><dt>Based in</dt><dd>Dhaka, BD</dd></div>
+          <div><dt>Focus</dt><dd>Responsive UI</dd></div>
+          <div><dt>Editor</dt><dd>VS Code</dd></div>
+          <div><dt>Learning</dt><dd>JavaScript, Git</dd></div>
+          <div><dt>Reads</dt><dd>MDN, daily</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <p class="section__label">02 — Skills</p>
+    <div class="skills">
+      <div class="skills__group">
+        <h2>Build</h2>
+        <ul class="leaders">
+          <li><span class="leaders__k">Semantic HTML</span><span class="leaders__fill"></span><span class="leaders__v">Confident</span></li>
+          <li><span class="leaders__k">CSS Grid &amp; Flexbox</span><span class="leaders__fill"></span><span class="leaders__v">Confident</span></li>
+          <li><span class="leaders__k">Responsive design</span><span class="leaders__fill"></span><span class="leaders__v">Confident</span></li>
+          <li><span class="leaders__k">JavaScript (DOM)</span><span class="leaders__fill"></span><span class="leaders__v">Working</span></li>
+          <li><span class="leaders__k">Git &amp; GitHub</span><span class="leaders__fill"></span><span class="leaders__v">Working</span></li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h2>Care about</h2>
+        <ul class="leaders">
+          <li><span class="leaders__k">Accessibility basics</span><span class="leaders__fill"></span><span class="leaders__v">WCAG AA</span></li>
+          <li><span class="leaders__k">Performance</span><span class="leaders__fill"></span><span class="leaders__v">No bloat</span></li>
+          <li><span class="leaders__k">Type &amp; spacing</span><span class="leaders__fill"></span><span class="leaders__v">Obsessive</span></li>
+          <li><span class="leaders__k">Cross-browser</span><span class="leaders__fill"></span><span class="leaders__v">Tested</span></li>
+          <li><span class="leaders__k">Clean commits</span><span class="leaders__fill"></span><span class="leaders__v">Getting there</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <p class="section__label">03 — Projects</p>
+    <div class="cards">
+
+      <article class="card">
+        <div class="plate plate--a" aria-hidden="true"></div>
+        <h3 class="card__title">Tiffin</h3>
+        <p class="card__type">Landing page · HTML, CSS</p>
+        <p class="card__text">A one-page site for a home-kitchen lunch service. Menu switches by weekday using nothing but a CSS grid and a bit of ordering logic.</p>
+        <p class="card__link"><a href="#contact">Read the case note<span aria-hidden="true"> →</span></a></p>
+      </article>
+
+      <article class="card">
+        <div class="plate plate--b" aria-hidden="true"></div>
+        <h3 class="card__title">Rickshaw Type</h3>
+        <p class="card__type">Gallery · HTML, CSS</p>
+        <p class="card__text">A photo archive of hand-painted rickshaw lettering from around Dhaka, laid out as a masonry grid with captions that appear on hover.</p>
+        <p class="card__link"><a href="#contact">Read the case note<span aria-hidden="true"> →</span></a></p>
+      </article>
+
+      <article class="card">
+        <div class="plate plate--c" aria-hidden="true"></div>
+        <h3 class="card__title">Result Sheet</h3>
+        <p class="card__type">Tool · HTML, CSS, JS</p>
+        <p class="card__text">A GPA calculator my classmates actually use. Keyboard-first, remembers nothing, ships in one file under 12&nbsp;KB.</p>
+        <p class="card__link"><a href="#contact">Read the case note<span aria-hidden="true"> →</span></a></p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <p class="section__label">04 — Contact</p>
+    <h2 class="contact__head">Got something that needs building?</h2>
+    <p class="contact__sub">I reply to everything within a day. A rough idea is enough to start with.</p>
+
+    <a class="bigmail" href="mailto:hello@example.com">hello@example.com</a>
+
+    <ul class="elsewhere">
+      <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="tel:+880000000000">+880 0000 000000</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Built by hand with HTML and CSS. No frameworks, no build step.</p>
+  <p><a href="#top">Back to top</a></p>
+</footer>
+
+</body>
+</html>
